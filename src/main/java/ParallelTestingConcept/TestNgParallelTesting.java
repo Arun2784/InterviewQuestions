@@ -26,7 +26,7 @@ public class TestNgParallelTesting {
 	public void Test2() throws Exception {
 
 		System.out.println("I am inside Test Method 2  |" + Thread.currentThread().getId());
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\A9687\\Desktop\\automation\\chromedriver_win32");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\A9687\\Desktop\\automation\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.aakash.ac.in/");
 		Thread.sleep(3000);
