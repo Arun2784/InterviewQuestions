@@ -10,7 +10,7 @@ public class OccurenceOfChar {
 
 		int count = 0;
 
-		char ch = 'p';
+		char ch = 'a';
 
 		for (int i = 0; i < length; i++) {
 			
