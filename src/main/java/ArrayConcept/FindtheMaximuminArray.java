@@ -10,9 +10,9 @@ public class FindtheMaximuminArray {
 
 		for (int i = 0; i < numbers.length; i++) {
 
-			if (numbers[i] > max) {
+			if (numbers[i] > max) {  //120>100 true; 120
 
-				max = numbers[i];
+				max = numbers[i];  //
 
 			}
 
